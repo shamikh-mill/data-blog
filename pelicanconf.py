@@ -5,7 +5,6 @@ from __future__ import unicode_literals
 AUTHOR = u'Shamikh Hossain'
 SITENAME = u"Shamikh's Blog"
 SITEURL = ''
-#site url
 
 PATH = 'content'
 
