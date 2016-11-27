@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Shamikh Hossain'
 SITENAME = u"Shamikh's Blog"
-SITEURL = 'https://data-blog.herokuapp.com/'
+SITEURL = 'shamikh.tech'
 
 PATH = 'content'
 
@@ -20,11 +20,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Twitter', 'http://getpelican.com/'),
-         ('GitHub', 'http://python.org/'),
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Emails', '#'),
+SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
